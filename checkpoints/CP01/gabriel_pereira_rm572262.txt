@@ -1,0 +1,45 @@
+Algoritmo troca_pneu
+
+Início
+    // Fase 1: Preparação da troca do pneu
+    Escreva "Encostar o carro em local seguro"
+    Escreva "Abrir o porta-malas"
+    
+    Se (kit_ferramentas_completo == Falso)
+	Então
+        Escreva "Não temos as ferramentas necessárias"
+        Escreva "Chamando o guincho."
+        Interromper Operação
+    Senão
+        Escreva "Retirar kit de troca de pneus"
+    Fim_Se
+
+    Escreva "Sinalizar a faixa para garantir a segurança"
+
+    // Fase 2: Verificação do Pneu Reserva
+    Se (pneu_reserva_presente == Falso OU pneu_reserva_vazio == Verdadeiro) Então
+        Escreva "Pneu reserva indisponível ou em más condições."
+        Escreva "Chamando o guincho."
+        Interromper Operação
+    Senão
+        Escreva "Posicionar pneu reserva ao lado da roda que será trocada"
+    Fim_Se
+
+    // Fase 3: Troca do pneu
+    Escreva "Afrouxar os parafusos da roda (com o carro ainda no chão)"
+    Escreva "Posicionar e acionar o macaco para erguer o carro"
+    Escreva "Finalizar a extração total dos parafusos"
+    Escreva "Retirar a roda com o pneu antigo"
+    
+    // Fase 4: Substituição
+    Escreva "Inserir a roda com o pneu reserva"
+    Escreva "Recolocar os parafusos e dar o primeiro aperto"
+    Escreva "Acionar o macaco para descer o carro até as rodas tocarem a pista"
+    Escreva "Finalizar o aperto firme de todos os parafusos"
+
+    // Fase 5: Finalização
+    Escreva "Recolher pneu antigo, ferramentas e sinalização"
+    Escreva "Guardar todos os itens no espaço original do porta-malas"
+    
+    Escreva "Procedimento finalizado! "
+Fim
